@@ -36,6 +36,9 @@ shinyUI(
             h6('Note:'),
             h6('These conversion rates were fixed by the European Union on December 31, 1998.'),
             verbatimTextOutput('outputfullname1'),
-            verbatimTextOutput('outputfullname2')
+            verbatimTextOutput('outputfullname2'),
+            h5(''),
+            br(),
+            h5('Source code: https://github.com/mollihua/DevelopingDataProducts_project')
         )
 ))
